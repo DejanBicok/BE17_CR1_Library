@@ -1,0 +1,174 @@
+body{
+    background: url(pictures/background.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+    overflow-y: scroll;
+    /* padding: 150px; */
+    margin: 300px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;  
+    
+}
+
+tbody{
+    background-color: rgb(197, 196, 196);
+    border: 5px rgb(87, 42, 42);
+    box-shadow:  120px 100px 110px rgb(241, 241, 241);
+    opacity: 0.95;    
+    
+}
+
+.h2{
+    font-size: 70px;
+    text-align: center;
+    background-color: rgb(95, 53, 53);
+    color: whitesmoke;
+    border-style: solid;
+    border-radius: 40px; /*border radius uvek u pikselima , bolje nego u %, u slucaju kruga,treba %*/
+    width:auto;
+}
+
+.tablehead{
+    color: whitesmoke;
+    background-color: rgb(146, 146, 146);
+    font-size: 25px;
+    text-shadow: 10px 10px 10px #333;  
+}
+
+.btn-primary{
+    font-size: 25px;
+    background-color: rgb(45, 79, 189);
+    transition: all 0.7s;
+    border: whitesmoke; 
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    opacity: 0.5;
+}
+
+.manageProduct{           
+    margin: auto;
+   
+}
+
+td{          
+    text-align: left;
+    vertical-align: middle;
+}
+
+table.table tbody tr td,
+table.table thead tr th,
+table.table thead {
+  
+  border-top: 20px solid rgb(95, 53, 53);
+ 
+}
+
+.btn-danger{
+    font-size: 16px;
+    background-color:rgb(200, 0, 0);
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.btn-danger:hover{
+    opacity: 0.5;
+}
+
+.body1 {
+    background: url(pictures/addbook.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: 100px;
+    padding: 0px;
+    position:relative;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; 
+    margin: 120px;
+    padding: 70px;
+    width: 1000px;
+    
+}
+
+legend.h2{
+    font-size: 45px;
+}
+
+.body_upd{
+    background: url(pictures/update.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; 
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    
+}
+
+.body_del{
+    background: url(pictures/delete.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; 
+    position: absolute;
+    margin: 300px;
+    width: auto;
+    background-color: white;
+    border: 10px solid rgb(95, 53, 53);
+    border-radius: 15px;
+    right: 90px;
+
+}
+
+.fieldset_del{
+    background-color: rgb(146, 146, 146);
+    text-align: center;
+    
+}
+
+.h5_del{
+    background-color: rgb(146, 146, 146);
+    font-size: 25px;
+    text-shadow: 10px 10px 10px #333;  
+    width: 75%;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 70px;
+    
+}
+
+.h3_del{
+    background-color: rgb(146, 146, 146);
+    font-size: 25px;
+    text-shadow: 10px 10px 10px #333; 
+    width: 75%;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 70px;
+
+}
+
+.mb-3_del {
+    margin: 80px;
+
+}
+
+.mt-3_del {
+    margin: 70px;
+    
+}
+
+.form_del {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.td_del{
+    font-size: 45px;
+    position: absolute;
+    right: 100px;
+    top: 350px;
+    
+}
